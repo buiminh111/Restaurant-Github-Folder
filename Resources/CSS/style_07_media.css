@@ -1,24 +1,24 @@
-
 @font-face {
     font-family: "Josefin Sans";
     src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-ThinItalic.ttf') format('truetype');
-    font-style:italic;
+    font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Josefin Sans";
     src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf') format('truetype');
-    font-style:italic;
-    font-weight:lighter;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 @font-face {
     font-family: "Josefin Sans";
     src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
-    font-style:normal;
+    font-style: normal;
     font-weight: bold;
 }
+
 @font-face {
     font-family: "Josefin Sans";
     src: url('/Resources/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
@@ -32,12 +32,12 @@
 @font-face {
     font-family: "Jomolhari";
     src: url('/Resources/fonts/Jomolhari/Jomolhari/Jomolhari-Regular.ttf') format('truetype');
-}   
+}
 
 @font-face {
     font-family: "Script";
     src: url('/Resources/fonts/Dancing_Script/static/DancingScript-SemiBold.ttf') format('truetype');
-    font-style:normal;
+    font-style: normal;
     font-weight: normal;
 }
 
@@ -55,7 +55,7 @@ html {
     font-size: 16px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -65,22 +65,25 @@ body {
     width: 100%;
     background-color: #FFF3D3;
 }
+
 .heading {
     margin-bottom: 6rem;
     text-align: center;
 }
-.heading .italic h1 {
+
+.italic {
     font-family: "script";
     font-size: 5rem;
     color: #b6220f;
     position: relative;
     top: 2rem;
 }
-.heading .normal h1 {
+
+.normal {
     font-family: "Playfair";
     font-size: 8rem;
-    font-weight: lighter;
-    color:black;
+    font-weight: 100;
+    color: black;
     letter-spacing: 0.8rem;
 }
 
@@ -90,21 +93,23 @@ body {
         margin-bottom: 3rem;
     }
 
-    .heading .italic h1 {
+    .italic {
         font-size: 3.5rem;
         top: 1rem;
     }
-    .heading .normal h1{
+
+    .normal {
         font-size: 5rem;
         letter-spacing: 0.4rem;
     }
 }
+
 @media only screen and (max-width: 480px) {
-    .heading{
+    .heading {
         width: 100vw;
     }
 }
-    
+
 
 /* !Banner section */
 
@@ -132,16 +137,16 @@ body {
     margin-left: 7rem;
 }
 
-.nav-bar ul li a{
+.nav-bar ul li a {
     font-size: 2rem;
     font-family: Josefin Sans;
     font-style: normal;
     text-decoration: none;
-    color:#FFF3D3;
+    color: #FFF3D3;
 }
 
 .nav-bar ul li a:hover {
-    color:red;
+    color: red;
 }
 
 #title-section {
@@ -166,7 +171,7 @@ body {
 
 .title {
     width: 20vw;
-    height:auto;
+    height: auto;
 }
 
 .title h1 {
@@ -189,7 +194,7 @@ body {
 
 #reserve-button a {
     font-family: 'Josefin Sans';
-    font-size: 2.25rem ;
+    font-size: 2.25rem;
     color: #FFF3D3;
     text-decoration: none;
 }
@@ -211,43 +216,52 @@ body {
         height: 32.125rem;
         width: 100vw;
     }
+
     .nav-bar ul {
         width: 100%;
         padding-top: 1.56rem;
         padding-right: 3.375rem;
     }
-    
+
     .nav-bar ul li {
         margin-left: 2.5rem;
-    }   
+    }
+
     .nav-bar ul li a {
         font-size: 0.8rem;
     }
+
     #title-section {
         margin-left: 3.37rem;
         margin-top: 4.68rem;
     }
+
     #title-section .image-container {
         width: 2.875rem;
         height: 2.875rem;
     }
+
     #title-section .image-container img {
         max-width: 100%;
     }
+
     .title {
         width: 12rem;
     }
+
     .title h1 {
         font-size: 3.43rem;
     }
+
     #reserve-button {
         width: 10rem;
         height: 2.5rem;
     }
 
     #reserve-button a {
-        font-size: 1.25rem ;
+        font-size: 1.25rem;
     }
+
     .banner-bottom {
         display: block;
         width: 100vw;
@@ -255,56 +269,68 @@ body {
         background-color: #b6220f;
     }
 }
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px) {
     .banner-section {
         height: 20rem;
         width: 100vw;
     }
-    .nav-bar ul{
+
+    .nav-bar ul {
         width: 100%;
         height: 2rem;
         padding: 0;
         justify-content: center;
         align-items: center;
-        background-color:#FFF3D3;
+        background-color: #FFF3D3;
     }
+
     .nav-bar ul li {
-        margin: 0 1.5rem; 
+        margin: 0 1.5rem;
     }
-    .nav-bar ul li a{
+
+    .nav-bar ul li a {
         color: #b6220f;
     }
+
     #title-section {
         margin-left: 1.5rem;
         margin-top: 3.5rem;
     }
+
     #title-section .image-container {
         width: 2rem;
         height: 2rem;
     }
+
     #title-section .image-container img {
         max-width: 100%;
     }
+
     .title {
         width: 12rem;
     }
+
     .title h1 {
         font-size: 2.5rem;
         line-height: 150%;
     }
+
     #reserve-button {
         width: 7.75rem;
         height: 1.93rem;
     }
 
     #reserve-button a {
-        font-size: 0.93rem ;
+        font-size: 0.93rem;
     }
-    .banner-bottom{
+
+    .banner-bottom {
         width: 100vw;
         height: 0.6rem;
     }
 }
+
 /* !Welcome section */
 
 #welcome-section {
@@ -333,9 +359,11 @@ body {
     font-size: 2vw;
     line-height: 3vw;
 }
-#welcome-section .images-container{
+
+#welcome-section .images-container {
     width: 100vw;
 }
+
 #welcome-section .image-container-01 {
     width: 36%;
     position: static;
@@ -343,7 +371,9 @@ body {
     margin-top: 16.43rem;
     margin-left: 13.95%;
 }
-#welcome-section .image-container-01 img, #welcome-section .image-container-02 img {
+
+#welcome-section .image-container-01 img,
+#welcome-section .image-container-02 img {
     max-width: 100%;
     height: auto;
 }
@@ -364,6 +394,7 @@ body {
         margin-bottom: 0;
         /* border: 3px solid red; */
     }
+
     #welcome-section .content {
         width: 50vw;
         position: static;
@@ -374,26 +405,31 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
     #welcome-section .content h2 {
         font-size: 18vw;
     }
+
     #welcome-section .content h4 {
         width: 100%;
         text-align: center;
         font-size: 4vw;
         line-height: 8vw;
         padding: 0;
-    }   
-    #welcome-section .images-container{
+    }
+
+    #welcome-section .images-container {
         width: 100vw;
     }
+
     #welcome-section .image-container-01 {
         width: 52.21%;
         position: static;
         overflow: hidden;
         margin-top: 0;
-        margin-left: 7.03%;    
+        margin-left: 7.03%;
     }
+
     #welcome-section .image-container-02 {
         width: 45%;
         z-index: 2;
@@ -404,27 +440,32 @@ body {
         margin-top: -35.4%;
     }
 }
+
 @media only screen and (max-width:480px) {
     #welcome-section {
         width: 100vw;
         padding-bottom: 0;
         margin-bottom: 9.18rem;
     }
-    #welcome-section .content{
+
+    #welcome-section .content {
         width: 50vw;
         padding-top: 9.18rem;
         padding-bottom: 9.18rem;
     }
-    #welcome-section .images-container{
+
+    #welcome-section .images-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #welcome-section .image-container-01{
+
+    #welcome-section .image-container-01 {
         width: 21rem;
         height: 31rem;
         margin-left: 0;
     }
+
     #welcome-section .image-container-02 {
         position: static;
         width: 21rem;
@@ -434,28 +475,34 @@ body {
         margin-top: 0;
     }
 }
+
 /* ! Menu section */
 
 #menu-section {
     margin-bottom: 16.43rem;
 }
-#menu-section .panels-container{
+
+#menu-section .panels-container {
     width: 100vw;
 }
+
 #menu-section .image-container {
     width: 100vw;
     height: 21.75rem;
     overflow: hidden;
 }
-#menu-section .image-container img{
+
+#menu-section .image-container img {
     min-width: 100%;
     height: auto;
 }
+
 #menu-section .panel {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #menu-section .content {
     display: flex;
     flex-direction: column;
@@ -463,13 +510,15 @@ body {
     position: absolute;
     z-index: 1;
     padding-top: 1rem;
-    
+
 
 }
-#menu-section .content h1, #menu-section .button-box h3 {
+
+#menu-section .content h1,
+#menu-section .button-box h3 {
     font-family: "Josefin Sans";
     font-weight: bold;
-    color:  #FFF3D3;
+    color: #FFF3D3;
     letter-spacing: 0.2rem;
 }
 
@@ -477,8 +526,8 @@ body {
     font-size: 4rem;
 }
 
-#menu-section .button-box h3{
-    font-size: 1.25rem;  
+#menu-section .button-box h3 {
+    font-size: 1.25rem;
     color: black;
 }
 
@@ -492,6 +541,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 a {
     text-decoration: none;
 }
@@ -500,38 +550,46 @@ a {
     #menu-section {
         margin-bottom: 9.18rem;
     }
-    #menu-section .panels-container{
+
+    #menu-section .panels-container {
         width: 100vw;
     }
+
     #menu-section .image-container {
         width: 100vw;
         height: 11.43rem;
         overflow: hidden;
     }
+
     #menu-section .image-container img {
         width: auto;
         height: 100%;
     }
+
     #menu-section .content h1 {
         font-size: 2rem;
     }
+
     #menu-section .button-box {
         background-color: #FFF3D3;
         width: 11rem;
         height: 2.5rem;
         margin-top: 1rem;
     }
-    #menu-section .button-box h3{
-        font-size: 1rem;  
+
+    #menu-section .button-box h3 {
+        font-size: 1rem;
         color: black;
     }
-    #menu-section .image-container{
+
+    #menu-section .image-container {
         width: 100%;
         height: 11.43rem;
         overflow: hidden;
     }
 }
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px) {
     #menu-section {
         width: 100vw;
         margin-bottom: 9.18rem;
@@ -545,7 +603,7 @@ a {
     padding: 0;
 }
 
-#specialties-section .panel{
+#specialties-section .panel {
     width: 100vw;
     position: relative;
     display: flex;
@@ -563,7 +621,7 @@ a {
     height: auto;
 }
 
- .nav-icons {
+.nav-icons {
     width: 100vw;
     position: absolute;
     z-index: 1;
@@ -577,13 +635,15 @@ a {
     margin-bottom: 18%;
 }
 
-#left, #right {
-   opacity: 50%;
-   width: 1rem;
+#left,
+#right {
+    opacity: 50%;
+    width: 1rem;
 }
 
-#left:hover, #right:hover {
-    filter:saturate(500%);
+#left:hover,
+#right:hover {
+    filter: saturate(500%);
     opacity: 100%;
 }
 
@@ -591,6 +651,7 @@ a {
     display: flex;
     justify-content: center;
 }
+
 .circles img {
     width: 4rem;
 }
@@ -600,136 +661,167 @@ a {
         margin-bottom: 10.5rem;
         width: 100vw;
     }
-    
-    #specialties-section .panel{
+
+    #specialties-section .panel {
         margin: 0;
     }
-    
+
     #specialties-section .image-container {
         width: 100%;
     }
+
     .nav-icons {
         bottom: 1.5rem;
     }
+
     .nav-icons .arrows {
         padding: 0 6%;
         margin-bottom: 20%;
     }
-    #left, #right {
+
+    #left,
+    #right {
         opacity: 50%;
         width: 0.8rem;
     }
-     .circles img {
+
+    .circles img {
         width: 3.5rem;
     }
 }
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px) {
     #specialties-section {
         margin-bottom: 9.18rem;
     }
 }
+
 /* ! Opening section */
 #opening-section {
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 16.43rem;
-    padding-left: 90rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 16.43rem;
 }
 
-.content-container .heading, .content-container .content{
-    text-align: right;
-}
-#opening-section .content-container {
+#opening-section .content-container{
     margin-right: 5.3rem;
     margin-top: 32rem;
+    text-align: right;
 }
-#opening-section .heading {
-    width: 25rem;
+#opening-section .heading{
+    text-align: right;
     margin-bottom: 1rem;
 }
+#opening-section .image-container #first {
+	display: block;
+}
+
+#opening-section .image-container #second {
+	display: none;
+}
+
 
 #dates {
-    font-family: "Josefin Sans";
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 2.5rem;
-    letter-spacing: 0.4rem;
-    line-height: 4rem;
+	font-family: "Josefin Sans";
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	letter-spacing: 0.4rem;
+	line-height: 4rem;
 }
 
 #time {
-    font-family: "Josefin Sans";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.5rem;
-    letter-spacing: 0.4rem;
-    line-height: 4rem;
+	font-family: "Josefin Sans";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 2.5rem;
+	letter-spacing: 0.4rem;
+	line-height: 4rem;
 }
 
-#opening-section .first{
-    margin-right: 7.5rem;
-    min-width: 800px;
-    height: 1084px;
-    overflow: hidden;
+#opening-section .first {
+	margin-right: 7.5rem;
+	min-width: 800px;
+	height: 1084px;
+	overflow: hidden;
 }
-#opening-section .second{
-    display: none;
+#opening-section .second {
+	display: none;
 }
-#opening-section .first img, #opening-section .second img {
-    max-width: 100%;
-    height: auto;
+#opening-section .first img,
+#opening-section .second img {
+	max-width: 100%;
+	height: auto;
 }
-    
+
 @media only screen and (max-width: 768px) {
-    #opening-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 0;
-        margin-bottom: 10.5rem;
-    }
-    .content-container .heading, .content-container .content{
+	#opening-section {
+		position: relative;
+		margin-right: 0;
+		margin-bottom: 10.5rem;
+		height: 65rem;
+	}
+    
+	#opening-section .content-container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 3;
+		margin: 0;
+		text-align: center;
+	}
+    #opening-section .heading{
         text-align: center;
     }
-    #opening-section .content-container {
-        position: absolute;
-        margin-right: 0;
-        margin-top: 0;
-    }
-    #dates {
-        color: #FFF3D3;
-    }
-    #time {
-        font-weight: 400;
-        color: #FFF3D3;
-    }
-    #opening-section .first{
-        display: none;
-    }
-    #opening-section .second{
-        display: block;
-        width: 100%;
-        max-height: 881px;
-        overflow: hidden;
-    }
-    #opening-section .heading .normal h1 {
-        color: #FFF3D3;
-    }
+	#opening-section .image-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	#opening-section .image-container img {
+		width: 100%;
+	}
+	#opening-section .image-container #first {
+		display: none;
+	}
+	#opening-section .image-container #second {
+		display: block;
+	}
+	#dates {
+		color: #fff3d3;
+	}
+	#time {
+		font-weight: 400;
+		color: #fff3d3;
+	}
+	#opening-section .first {
+		display: none;
+	}
+	#opening-section .second {
+		display: block;
+		width: 100%;
+		max-height: 881px;
+		overflow: hidden;
+	}
+	#opening-section .heading .normal h1 {
+		color: #fff3d3;
+	}
 }
-@media only screen and (max-width: 480px){
-    #opening-section {
-        margin-bottom: 9.18rem;
-    }
+@media only screen and (max-width: 480px) {
+	#opening-section {
+		margin-bottom: 9.18rem;
+	}
 }
+
 /* ! slogan section */
 #slogan-section {
     width: 100vw;
     margin-bottom: 16.43rem;
 }
 
-#slogan-section .image-container{
+#slogan-section .image-container {
     background-image: url(/Resources/images/res_img.jpg);
     background-size: cover;
     background-position: center;
@@ -737,6 +829,7 @@ a {
     width: auto;
     height: 31rem;
 }
+
 #slogan-section p {
     font-family: "Playfair Italic";
     font-size: 4rem;
@@ -744,27 +837,32 @@ a {
     letter-spacing: 0.4rem;
     text-align: center;
     padding-top: 392px;
-}   
+}
+
 @media only screen and (max-width: 768px) {
-    #slogan-section{
+    #slogan-section {
         margin-bottom: 10.5rem;
     }
-    #slogan-section .image-container{
+
+    #slogan-section .image-container {
         height: 15.8rem;
     }
+
     #slogan-section p {
         font-size: 2.25rem;
         padding-top: 190px;
     }
 }
-@media only screen and (max-width: 480px){
-    #slogan-section{
+
+@media only screen and (max-width: 480px) {
+    #slogan-section {
         display: none;
     }
 }
+
 /* ! Reservation section */
 
-#reservation-section{
+#reservation-section {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -772,7 +870,7 @@ a {
     margin-bottom: 16.43rem;
 }
 
-.boxes-container{
+.boxes-container {
     width: 100%;
     display: inline-flex;
     justify-content: space-around;
@@ -809,7 +907,7 @@ a {
     filter: opacity(50%);
 }
 
-.box-container .box-content img:hover{
+.box-container .box-content img:hover {
     filter: opacity(100%);
 }
 
@@ -840,47 +938,56 @@ a {
     color: #FFF3D3;
     text-align: center;
 }
+
 @media only screen and (max-width: 768px) {
     #reservation-section {
         width: 100vw;
     }
-    #reservation-section .heading{
+
+    #reservation-section .heading {
         margin-bottom: 0;
     }
-    .boxes-container{
+
+    .boxes-container {
         width: 48rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 0 50%;
     }
+
     .box-container {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 2.6rem;
     }
+
     .box-container .box-content {
         width: 23.1rem;
         height: 4rem;
         display: block;
         position: relative;
     }
+
     .box-container .box-content img {
         position: absolute;
         left: 20rem;
-        bottom: 1rem; 
+        bottom: 1rem;
     }
+
     #reservation-section .button {
         margin-top: 3.8rem;
     }
 }
-@media only screen and (max-width: 480px){
+
+@media only screen and (max-width: 480px) {
     #reservation-section {
         width: 30rem;
         margin-bottom: 9.18rem;
     }
 }
+
 /* ! Footer section */
 footer {
     width: 100vw;
@@ -888,6 +995,7 @@ footer {
     background-color: #b6220f;
     position: relative;
 }
+
 footer .content-container {
     width: 100vw;
     display: inline-flex;
@@ -895,23 +1003,27 @@ footer .content-container {
     position: relative;
     top: 2rem;
 }
+
 footer .group {
     width: 16rem;
     padding: 1.5rem 0;
 }
 
-footer .first{
+footer .first {
     position: relative;
     left: 8.75rem;
 }
-footer .fourth{
+
+footer .fourth {
     position: relative;
     right: 8.75rem;
     text-align: center;
 }
-footer .alt{
+
+footer .alt {
     display: none;
 }
+
 footer h1 {
     font-family: "josefin Sans";
     font-weight: bold;
@@ -921,6 +1033,7 @@ footer h1 {
     text-align: center;
     font-size: 2.25rem;
 }
+
 footer p {
     font-family: "josefin Sans";
     font-weight: 300;
@@ -930,6 +1043,7 @@ footer p {
     line-height: 170%;
     text-align: center;
 }
+
 footer .image-container {
     width: 100%;
     height: 13rem;
@@ -939,17 +1053,19 @@ footer .image-container {
     justify-content: center;
     align-items: center;
 }
+
 footer .image-container img {
     width: 5rem;
     height: auto;
 }
 
 @media only screen and (max-width: 768px) {
-    footer{
+    footer {
         height: 48rem;
         position: relative;
     }
-    footer .content-container{
+
+    footer .content-container {
         width: 100%;
         display: flex;
         justify-content: space-around;
@@ -957,33 +1073,44 @@ footer .image-container img {
         top: 0;
         padding: 0 1rem;
     }
-    footer .first, footer .second{
+
+    footer .first,
+    footer .second {
         position: static;
     }
-    footer .fourth, footer .third{
+
+    footer .fourth,
+    footer .third {
         display: none;
     }
-    footer .alt{
+
+    footer .alt {
         display: block;
         position: relative;
         text-align: center;
     }
+
     footer .image-container {
         width: 100vw;
         height: 10rem;
         position: static;
     }
+
     footer .image-container img {
         width: 5rem;
         height: auto;
     }
 }
-@media only screen and (max-width: 480px){
-    footer, footer .content-container{
+
+@media only screen and (max-width: 480px) {
+
+    footer,
+    footer .content-container {
         width: 30rem;
         height: 56.8rem;
     }
-    footer .content-container{
+
+    footer .content-container {
         height: 46.8rem;
         flex-direction: column;
         justify-content: unset;
@@ -991,19 +1118,23 @@ footer .image-container img {
         align-items: center;
         padding: 0;
     }
-    footer .group{
+
+    footer .group {
         margin-bottom: 2rem;
         width: 20rem;
     }
-    footer .alt{
+
+    footer .alt {
         position: static;
     }
-    footer .image-container{
+
+    footer .image-container {
         width: 480px;
         text-align: center;
         top: 3rem;
     }
-    footer h1{
+
+    footer h1 {
         font-size: 3rem;
     }
 }
