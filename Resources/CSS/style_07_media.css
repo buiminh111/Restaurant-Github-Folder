@@ -1,54 +1,54 @@
 @font-face {
     font-family: "Josefin Sans";
-    src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-ThinItalic.ttf') format('truetype');
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-ThinItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Josefin Sans";
-    src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf') format('truetype');
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-LightItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: lighter;
 }
 
 @font-face {
     font-family: "Josefin Sans";
-    src: url('/Resources/fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
+    src: url('../fonts/Josefin_Sans/static/JosefinSans-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Josefin Sans";
-    src: url('/Resources/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Josefin Sans Italic";
-    src: url('/Resources/fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url('../fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Jomolhari";
-    src: url('/Resources/fonts/Jomolhari/Jomolhari/Jomolhari-Regular.ttf') format('truetype');
+    src: url('../fonts/Jomolhari/Jomolhari/Jomolhari-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Script";
-    src: url('/Resources/fonts/Dancing_Script/static/DancingScript-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Dancing_Script/static/DancingScript-SemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Playfair";
-    src: url('/Resources/fonts/Playfair/Playfair-VariableFont_opsz\,wdth\,wght.ttf') format('truetype');
+    src: url('../fonts/Playfair/Playfair-VariableFont_opsz\,wdth\,wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: "Playfair Italic";
-    src: url('/Resources/fonts/Playfair/Playfair-Italic-VariableFont_opsz\,wdth\,wght.ttf') format('truetype');
+    src: url('../fonts/Playfair/Playfair-Italic-VariableFont_opsz\,wdth\,wght.ttf') format('truetype');
 }
 
 html {
@@ -824,7 +824,7 @@ a {
 }
 
 #slogan-section .image-container {
-    background-image: url(/Resources/images/res_img.jpg);
+    background-image: url(../images/res_img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
